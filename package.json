@@ -1,7 +1,7 @@
 {
   "name": "lobotomy",
   "description": "Replace hapi endpoints with temporary or permanent handlers",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Eran Hammer <eran@hammer.io> (http://hueniverse.com)",
   "repository": "git://github.com/hueniverse/lobotomy",
   "main": "lib/index.js",
@@ -17,14 +17,14 @@
   },
   "dependencies": {
     "call": "3.x.x",
-    "hoek": "3.x.x",
-    "joi": "7.x.x"
+    "hoek": "4.x.x",
+    "joi": "9.x.x"
   },
   "devDependencies": {
     "boom": "3.x.x",
-    "code": "2.x.x",
+    "code": "3.x.x",
     "hapi": "13.x.x",
-    "lab": "8.x.x"
+    "lab": "10.x.x"
   },
   "scripts": {
     "test": "lab -a code -t 100 -L",
